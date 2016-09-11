@@ -124,11 +124,11 @@ void write2eeprom() {
         EEPROM.write(4, myHumidity.b[1]);
         EEPROM.commit();
         delay(50);
-        Serial.println("Wrote to EEPROM:");
-        Serial.print ("Temp_EEPROM= ");
-        Serial.println (myTemperature.i);
-        Serial.print ("Hum_EEPROM= ");
-        Serial.println (myHumidity.i);
+        // Serial.println("Wrote to EEPROM:");
+        // Serial.print ("Temp_EEPROM= ");
+        // Serial.println (myTemperature.i);
+        // Serial.print ("Hum_EEPROM= ");
+        // Serial.println (myHumidity.i);
 }
 
 byte getWiFiFlag(){
